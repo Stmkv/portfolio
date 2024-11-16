@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style/style_global.css" />
+    <link rel="stylesheet" href="/style/style.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <p class="header__sitename">
+        <span class="header__sitename-decorated">Порт</span>фолио
+      </p>
+      <nav class="header__menu">
+        <ul class="header__menu-list">
+          <li class="header__menu-item">
+            <a href="https://st-mkv.ru/" class="header__menu-link">Сайты</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="#hobbies" class="header__menu-link">Увлечения</a>
+          </li>
+          <li class="header__menu-item">
+            <a
+              href="#contacts"
+              class="header__menu-link header__menu-link_active"
+              >Контакты</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="welcome">
+        <div class="welcome_text-wrap">
+          <h1 class="welcome__title">Я Макаров Степан</h1>
+          <p class="welcome__paragraph">
+            Живу и учусь в Казани последние четыре года. Занимаюсь
+            программированием на бэке.
+          </p>
+        </div>
+        <img
+          src="/images/welocmstepan.jpg"
+          alt="Welcom image"
+          class="weclome__image"
+        />
+      </section>
+      <section class="hobbies" id="hobbies">
+        <h2 class="hobbies__title">
+          <span class="hobbies__title-decortion">Мои</span> увлечения
+        </h2>
+        <ul class="hobbies__list">
+          <li class="hobbies__item">
+            <articel class="hobbies-card">
+              <img
+                src="/images/backend.png"
+                alt="backend image"
+                class="hobbies-card__image"
+              />
+              <div class="hobbies-card__text">
+                <h3 class="hobbies-card__title">
+                  <span class="hobbies-card__title-decoration">Back</span>end
+                </h3>
+                <p class="hibbies-card__paragraph">
+                  (Python | Django & DRF | SQL | Docker | Git)
+                </p>
+              </div>
+            </articel>
+          </li>
+          <li class="hobbies__item">
+            <articel class="hobbies-card">
+              <img
+                src="/images/devops.png"
+                alt="devops image"
+                class="hobbies-card__image"
+              />
+              <div class="hobbies-card__text">
+                <h3 class="hobbies-card__title">
+                  <span class="hobbies-card__title-decoration">Dev</span>ops
+                </h3>
+                <p class="hibbies-card__paragraph">
+                  (Linux | Bash | PostgreSQL & MySQL| Nginx)
+                </p>
+              </div>
+            </articel>
+          </li>
+          <li class="hobbies__item">
+            <articel class="hobbies-card">
+              <img
+                src="/images/frontend_card.png"
+                alt="frontend image"
+                class="hobbies-card__image"
+              />
+              <div class="hobbies-card__text">
+                <h3 class="hobbies-card__title">
+                  <span class="hobbies-card__title-decoration">Front</span>end
+                </h3>
+                <p class="hibbies-card__paragraph">(JS | SCSS | Bootstrap)</p>
+              </div>
+            </articel>
+          </li>
+        </ul>
+      </section>
+      <footer class="contacts" id="contacts">
+        <h2 class="contacts__title">Мои контакты</h2>
+        <ul class="contacts__list">
+          <li class="contacts__item">
+            <a
+              href="https://github.com/Stmkv?tab=repositories"
+              class="contacts__link"
+            >
+              <img
+                src="/images/Git.png"
+                alt="Git image"
+                class="contacts__image"
+              />
+            </a>
+          </li>
+          <li class="contacts__item">
+            <a href="mailto:st.mkv03@gmail.com" class="contacts__link">
+              <img
+                src="/images/Email.png"
+                alt="Email Image"
+                class="contacts__image"
+              />
+            </a>
+          </li>
+          <li class="contacts__item">
+            <a href="https://telegram.me/st_mkv" class="contacts__link">
+              <img
+                src="/images/Telegram.png"
+                alt="telegram image"
+                class="contacts__image"
+              />
+            </a>
+          </li>
+        </ul>
+      </footer>
+    </main>
+  </body>
+</html>

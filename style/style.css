@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap");
+body {
+  font-family: "Geist Mono", sans-serif;
+  background-image: url("/images/Background.png");
+}
+
+.header {
+  margin: 35px auto 41px;
+  width: 1167px;
+  padding: 23px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+}
+
+.header__sitename {
+  color: #14279b;
+  margin-left: 10px;
+  letter-spacing: 25%;
+}
+
+.header__sitename-decorated {
+  color: #002265;
+  font-weight: 600;
+}
+
+.header__menu-list {
+  display: flex;
+  gap: 45px;
+}
+
+.header__menu-link {
+  letter-spacing: 25%;
+}
+
+.header__menu-link_active {
+  color: white;
+  background-color: #608af5;
+  border-radius: 10px;
+  padding: 10px 18px;
+  font-weight: 600;
+}
+
+.welcome {
+  margin: 0 auto 118px;
+  width: 1167px;
+  display: flex;
+  justify-content: space-between;
+}
+.welcome .weclome__image {
+  width: 501px;
+}
+
+.welcome_text-wrap {
+  width: 580px;
+  margin: 42px 0 67px;
+}
+
+.welcome__title {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 75px;
+  letter-spacing: normal;
+  color: #002265;
+  margin-bottom: 100px;
+}
+
+.welcome__paragraph {
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: normal;
+  color: #082032;
+  font-size: 23px;
+}
+
+.hobbies {
+  width: 1161px;
+  margin: 0 auto 168px;
+}
+
+.hobbies__title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 52px;
+  letter-spacing: normal;
+  color: #002265;
+  margin-bottom: 60px;
+}
+
+.hobbies__title-decortion {
+  color: #082032;
+}
+
+.hobbies__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.hobbies-card {
+  width: 347px;
+  padding: 20px 24px 26px;
+  text-align: center;
+  border-radius: 13px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 10px;
+  height: 400px;
+  transition: all 0.2s linear;
+}
+.hobbies-card:hover {
+  box-shadow: 0 0 40px;
+  width: 350px;
+}
+
+.hobbies-card__image {
+  width: 300px;
+}
+
+.hobbies-card__title {
+  font-weight: normal;
+}
+
+.hobbies-card__title-decoration {
+  font-weight: 800;
+  color: #002265;
+}
+
+.contacts {
+  width: 1161px;
+  margin: 0 auto 168px;
+}
+
+.contacts__title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 52px;
+  letter-spacing: normal;
+  color: #002265;
+  margin-bottom: 60px;
+}
+
+.contacts__list {
+  display: flex;
+  justify-content: space-between;
+}
+.contacts__list .contacts__item:hover {
+  border-radius: 15px;
+  box-shadow: 0 0 40px;
+}/*# sourceMappingURL=style.css.map */
